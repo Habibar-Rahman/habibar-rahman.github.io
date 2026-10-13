@@ -28,3 +28,21 @@
 .education-card p{font-size:11px;line-height:1.8;color:var(--muted);margin:0}
 @media(max-width:850px){.competency-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.education-grid{grid-template-columns:1fr}.education-card{padding:18px}}
 @media(max-width:560px){.competency-block{padding:17px}.competency-grid{grid-template-columns:1fr}.brands-panel{padding:17px}.brand-list span{font-size:10px}.detail-list{font-size:11px}.education-card{gap:12px}}
+
+
+/* AI / GenAI learning and exploration section */
+.ai-section{background:linear-gradient(180deg,#0d1424,#0b1020);border-block:1px solid #202b40}
+.ai-intro{display:grid;grid-template-columns:170px 1fr;align-items:center;gap:30px;padding:25px 30px;margin-bottom:22px;border:1px solid #34415a;border-radius:14px;background:linear-gradient(110deg,#142132,#101729)}
+.ai-orbit{height:145px;width:145px;position:relative;display:grid;place-items:center;border:1px dashed #40516d;border-radius:50%;margin:auto}
+.ai-orbit:before,.ai-orbit:after{content:"";position:absolute;border:1px solid #33445c;border-radius:50%;inset:17px}
+.ai-orbit:after{inset:35px;border-color:#70f0c255}
+.orbit-center{z-index:1;display:grid;place-items:center;width:47px;height:47px;border-radius:14px;background:#70f0c21a;border:1px solid #70f0c277;color:var(--mint);font:500 16px var(--mono)}
+.orbit-node{position:absolute;z-index:2;font:9px var(--mono);font-style:normal;padding:5px 7px;border:1px solid #3a4a65;background:#101729;border-radius:5px;color:#d4deed}
+.node-one{top:5px;left:52px}.node-two{right:-5px;top:62px}.node-three{bottom:5px;left:53px}.node-four{left:-9px;top:62px}
+.ai-label{font:10px var(--mono);letter-spacing:1px;color:var(--mint)}
+.ai-intro h3{font-size:19px;line-height:1.5;margin:10px 0}
+.ai-intro p{font-size:12px;line-height:1.9;color:var(--muted);margin:0}
+.ai-cards .skill-card{min-height:225px}
+.ai-disclaimer{border-left:2px solid var(--violet);padding:10px 14px;color:#9ba9bf;font-size:11px;line-height:1.8;margin:20px 0 0;background:#15172a}
+@media(max-width:850px){.ai-intro{grid-template-columns:130px 1fr;gap:20px;padding:20px}.ai-orbit{width:120px;height:120px}.node-one{left:39px}.node-three{left:40px}}
+@media(max-width:560px){.ai-intro{grid-template-columns:1fr;padding:20px}.ai-orbit{margin:5px auto 12px}.ai-intro h3{font-size:17px}.ai-cards .skill-card{min-height:0}}
