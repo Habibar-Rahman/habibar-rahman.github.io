@@ -46,3 +46,12 @@
 .ai-disclaimer{border-left:2px solid var(--violet);padding:10px 14px;color:#9ba9bf;font-size:11px;line-height:1.8;margin:20px 0 0;background:#15172a}
 @media(max-width:850px){.ai-intro{grid-template-columns:130px 1fr;gap:20px;padding:20px}.ai-orbit{width:120px;height:120px}.node-one{left:39px}.node-three{left:40px}}
 @media(max-width:560px){.ai-intro{grid-template-columns:1fr;padding:20px}.ai-orbit{margin:5px auto 12px}.ai-intro h3{font-size:17px}.ai-cards .skill-card{min-height:0}}
+
+
+/* Floating WhatsApp contact button */
+.whatsapp-float{position:fixed;right:24px;bottom:24px;z-index:1000;width:58px;height:58px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#25D366;color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.28);transition:transform .2s ease,box-shadow .2s ease}
+.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.34)}
+.whatsapp-float:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+.whatsapp-float svg{width:31px;height:31px;fill:currentColor}
+@media(max-width:560px){.whatsapp-float{right:16px;bottom:16px;width:54px;height:54px}.whatsapp-float svg{width:29px;height:29px}}
+@media(prefers-reduced-motion:reduce){.whatsapp-float{transition:none}}
