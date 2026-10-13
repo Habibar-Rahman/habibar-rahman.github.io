@@ -55,3 +55,12 @@
 .whatsapp-float svg{width:31px;height:31px;fill:currentColor}
 @media(max-width:560px){.whatsapp-float{right:16px;bottom:16px;width:54px;height:54px}.whatsapp-float svg{width:29px;height:29px}}
 @media(prefers-reduced-motion:reduce){.whatsapp-float{transition:none}}
+
+/* Agency-focused portfolio additions */
+.hero-note{font-size:11px;color:#9ca8bd;border-left:2px solid var(--mint);padding:8px 12px;margin:0;line-height:1.7}
+.services-section{background:linear-gradient(180deg,#0b1020,#0e1424);border-bottom:1px solid #202b40}
+.service-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:20px;padding:24px 26px;border:1px solid #70f0c244;background:#111a2b;border-radius:13px}
+.service-cta b{font-size:15px}
+.service-cta p{color:var(--muted);font-size:12px;margin:5px 0 0}
+.service-cta .button{white-space:nowrap}
+@media(max-width:560px){.hero-note{font-size:10px}.service-cta{align-items:flex-start;flex-direction:column;padding:19px}.service-cta .button{white-space:normal}}
